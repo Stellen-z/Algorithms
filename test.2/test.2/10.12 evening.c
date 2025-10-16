@@ -1,9 +1,11 @@
-#define _CRT_SECURE_NO_WARNINGS 1
+#include<string.h>
 #include <stdio.h>
 
 int main()
 {
-	printf("Hello World");
+	int len = strlen("abcdef");
 
-	return o;
+	printf("%d\n", len);
+
+	return 0;
 }
