@@ -38,13 +38,13 @@
 //
 //	return 0;
 //}
-main()
-{
-	int a = 10;
-	printf("%d\n", a);
-	
-	unsigned int b = 7;
-	printf("%u\n", b);
-
-	return 0;
-}
+//main()
+//{
+//	int a = 10;
+//	printf("%d\n", a);
+//	
+//	unsigned int b = 7;
+//	printf("%u\n", b);
+//
+//	return 0;
+//}

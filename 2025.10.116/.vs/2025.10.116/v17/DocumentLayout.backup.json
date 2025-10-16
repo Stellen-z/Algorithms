@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code 2025\\gitte\\no.1\\2025.10.116\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10513C80-B5C6-4CE7-A4DA-63AC7F276387}|2025.10.116\\2025.10.116.vcxproj|D:\\code 2025\\gitte\\no.1\\2025.10.116\\2025.10.116\\practice 10.16.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10513C80-B5C6-4CE7-A4DA-63AC7F276387}|2025.10.116\\2025.10.116.vcxproj|solutionrelative:2025.10.116\\practice 10.16.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "practice 10.16.c",
+              "DocumentMoniker": "D:\\code 2025\\gitte\\no.1\\2025.10.116\\2025.10.116\\practice 10.16.c",
+              "RelativeDocumentMoniker": "2025.10.116\\practice 10.16.c",
+              "ToolTip": "D:\\code 2025\\gitte\\no.1\\2025.10.116\\2025.10.116\\practice 10.16.c*",
+              "RelativeToolTip": "2025.10.116\\practice 10.16.c*",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAC0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-16T12:21:22.551Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
