@@ -190,13 +190,12 @@ int main()
 {
 	int year = 0;
 	scanf("%d", &year);
+
 	int x = (year % 4 == 0 && !year % 100 == 0);
 	int y = (year % 400 == 0);
 
 	if (x || y)
 		printf("%d", year);
-
-
 
 	return 0;
 }
