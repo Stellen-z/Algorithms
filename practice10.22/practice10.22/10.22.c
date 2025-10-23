@@ -211,19 +211,21 @@
 //	return 0;
 //}
 //输入一个正整数，计算这个整数是几位数  (do-while)
-#include <stdio.h>    //0-9 10-99
-int main()
-{
-	int i = 0;
-	int cnt = 0;
-	scanf("%d", &i);
-
-	do 
-	{
-		i = i / 10;
-		cnt++;
-	} while (i);
-	printf("%d", cnt);
-
-	return 0;
-}
+//#include <stdio.h>    //0-9 10-99
+//int main()
+//{
+//	int i = 0;
+//	int cnt = 0;
+//	scanf("%d", &i);
+//
+//	do 
+//	{
+//		i = i / 10;
+//		cnt++;
+//	} while (i);//若写成i=0，即为将i赋值为0，则程序只会执行一次，无论如何结果均为1
+//	printf("%d", cnt);//while(i)是判断i是否非 0（用于控制循环次数），而while(i=0)是把i赋值为 0 后判断（结果恒为假）
+//
+//	return 0;
+//}
+//break是永久性停止循环；
+//continue是跳过本次循环中continue后面的代码
