@@ -94,7 +94,7 @@ int main()
 	while (left <= right)
 	{
 		//int mid = (left + right) / 2;  //每一次二分查找mid值均在动态变化，因此要将mid放在循环里面
-      //更优写法：
+      //更优写法：(防止数据太大，达到上限）
       int mid = left + (right - left) / 2; 
 		if (arr[mid] < n)
 		{
