@@ -10,7 +10,7 @@
 #define COLS COL+2
 
 //布置10个雷
-#define EASY_COUNT 80
+#define EASY_COUNT 10
 //声明函数
 //若出现调用参数过多的情况，即超过了它声明 / 定义时的参数数量
 //应回到.c和.h文件中定位函数位置
