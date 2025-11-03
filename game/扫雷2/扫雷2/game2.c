@@ -86,7 +86,7 @@ void FindMine(char mine[ROWS][COLS], char show[ROWS][COLS], int r, int c)
 				{
 					int c = GetMineCount(mine,x,y);
 					show[x][y] = '0' + c;
-					DisplayBoard(show, r, c);
+					DisplayBoard(show, ROW,COL);
 					win++;
 				}
 				else
