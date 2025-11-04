@@ -84,7 +84,7 @@ void Findmine(char mine[ROWS][COLS], char show[ROWS][COLS], int r, int c)
 		int win = 0;
 		while (win < ROW * COL - EASY_COUNT)
 		{
-			printf("请输入排查坐标：");
+			printf("请输入排查坐标：");//坐标要合法
 			scanf("%d %d", &x, &y);
 			if (x >= 1 && x <= 9 && y >= 1 && y <= 9)
 			{
