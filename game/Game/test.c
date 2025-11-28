@@ -15,11 +15,14 @@ void game()
 	Initboard(mine, ROWS, COLS, '0');
 	Initboard(show, ROWS, COLS, '*');
 	//2.打印棋盘
-	//Displayboard(show, ROW, COL);
+	Displayboard(show, ROW, COL);
 	//Displayboard(mine, ROW, COL);
 	//3.布置雷(十个）
 	Setmine(mine, ROW, COL);
-	Displayboard(mine, ROW, COL);
+	//Displayboard(mine, ROW, COL);
+	//4.统计雷
+	Findmine(mine,show,ROW, COL);
+	
 }
 
 int main()
@@ -30,6 +33,7 @@ int main()
 	{
 		menu();
 		scanf("%d", &input);
+		printf("\n");
 		switch (input)
 		{
 		case 1:

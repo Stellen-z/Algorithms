@@ -10,9 +10,13 @@
 #define ROWS ROW+2
 #define COLS COL+2
 
+#define EASY_COUNT 10
+
 //初始化棋盘
 void Initboard(char board[ROWS][COLS],int r, int c,char set);
 //打印棋盘
 void Displayboard(char show[ROWS][COLS], int r, int c);
 //布置雷
 void Setmine(char mine[ROWS][COLS],int r,int c);
+//排查雷
+void Findmine(char mine[ROWS][COLS], char show[ROWS][COLS],int r, int c);
