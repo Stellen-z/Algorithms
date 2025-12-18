@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-//#define SQUARE(x) ((x)*(x))
-//#define MAX(x,y) ((x>y)?(x):(y))
+#define SQUARE(x) ((x)*(x))
+#define MAX(x,y) ((x>y)?(x):(y))
 /*#define GENERIC_MAX(type)     \
 type type##_max(type x,type y)\
 {                             \
@@ -9,24 +9,24 @@ type type##_max(type x,type y)\
 }  */ 
 #define M 100
 #undef M
-//int main()
-//{
-//	/*int r = SQUARE(4);
-//	printf("%d\n", r);*/
-//	/*int a = 5;
-//	int ret = SQUARE(a + 1);
-//	printf("%d\n", ret);*/
-//	/*int a = 10;
-//	int b = 20;
-//	int r = MAX(a, b);
-//	printf("%d", r);*/
-//	//int m = int_max(2, 3);
-//	//printf("%d\n", m);
-//	//printf("%d\n", M);
-//	return 0;
-//}
-//三目操作符：
-//条件表达式 ? 表达式1 : 表达式2;
+int main()
+{
+	/*int r = SQUARE(4);
+	printf("%d\n", r);*/
+	/*int a = 5;
+	int ret = SQUARE(a + 1);
+	printf("%d\n", ret);*/
+	/*int a = 10;
+	int b = 20;
+	int r = MAX(a, b);
+	printf("%d", r);*/
+	//int m = int_max(2, 3);
+	//printf("%d\n", m);
+	//printf("%d\n", M);
+	return 0;
+}
+三目操作符：
+条件表达式 ? 表达式1 : 表达式2;
 #define __DEBUG__
 int main()
 {
@@ -39,4 +39,25 @@ int main()
 		printf("%d\n", arr[i]);
         #endif
 	}
+}
+
+复习冒泡排序
+#include <stdio.h>
+int main()
+{
+	int arr[] = { 2,3,5,8,4,0,9,19,20 };
+	int sz = sizeof(arr) / sizeof(arr[0]);
+
+	int i = 0;
+	//进行sz-1趟排序
+	for (i = 0; i < sz - 1; i++)
+	{
+		//从前向后依次遍历
+		int j = 0;
+		for (j = 0; j < sz - 1 - i; j++)
+		{
+
+		}
+	}
+	return 0;
 }
