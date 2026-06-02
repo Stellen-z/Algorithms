@@ -25,20 +25,39 @@
 * 基础算法
 * 高精度
 * 二分与前缀和
-* 排序算法
 * 蓝桥杯竞赛训练
 
 ---
 
 ## 📂 仓库结构
 
-Contest/
-├── 基础算法
-├── 搜索
-├── 数据结构
-├── 动态规划
-├── 图论基础
-└── 数学
+Contest
+├── README.md
+├── LICENSE
+│
+├── Basic Algorithms
+│   ├── Simulation
+│   │   ├── 多项式输出.cpp
+│   │   ├── 蛇形方阵.cpp
+│   │   └── 字符串展开.cpp
+│   │
+│   └── High Precision
+│       ├── 高精度加法.cpp
+│       ├── 高精度减法.cpp
+│       ├── 高精度乘法.cpp
+│       └── 高精度除法.cpp
+│
+├── Search
+│   ├── DFS
+│   └── BFS
+│
+├── Data Structure
+│
+├── Dynamic Programming
+│
+├── Graph Theory
+│
+└── Math
 
 ---
 
