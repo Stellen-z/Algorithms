@@ -31,6 +31,7 @@
 
 ## 📂 仓库结构
 
+```text
 Contest
 ├── README.md
 ├── LICENSE
@@ -58,6 +59,7 @@ Contest
 ├── Graph Theory
 │
 └── Math
+```
 
 ---
 
