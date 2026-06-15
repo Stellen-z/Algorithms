@@ -1,4 +1,4 @@
-//¶àÏîÊ½Êä³ö
+//å¤šé¡¹å¼è¾“å‡º
 #include <iostream>
 #include <cmath>
 
@@ -18,15 +18,15 @@ int main()
 		
 		if(a == 0) continue;
 		
-		//1.·ûºÅ
+		//1.ç¬¦å·
 		if(a < 0) tmp += '-';
 		else if(i != n) tmp += '+';
-		//2.Êı×Ö
+		//2.æ•°å­—
 		a = abs(a);
 		
 		if(i == 0) tmp += to_string(a);
 		else if(a != 1) tmp += to_string(a);
-		//3.´ÎÊı 
+		//3.æ¬¡æ•° 
 		if(i > 1)
 		{
 			tmp += "x^";
@@ -61,16 +61,16 @@ int main()
 	{
 	int a;cin >> a;
 	if(a == 0) continue;
-	//1.·ûºÅ
+	//1.ç¬¦å·
 	if(a < 0) cout << '-';
 	else
 	{
 		if(i != n) cout << '+';
 	} 
-	//2.Êı×Ö
+	//2.æ•°å­—
 	a = abs(a);
 	if(a != 1 || (a == 1 && i == 0)) cout << a;
-	//3.´ÎÊı 
+	//3.æ¬¡æ•° 
 	if(i == 0) continue;
 	else if(i == 1) cout << "x";
 	else cout << "x^" << i;
