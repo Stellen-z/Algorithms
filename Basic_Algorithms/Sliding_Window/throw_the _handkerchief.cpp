@@ -12,7 +12,7 @@ int main()
 {
 	int n; cin >> n;
 	
-	LL sum = 0;
+	LL sum = 0；
 	for(int i = 1;i <= n;i++)
 	{
 		cin >> a[i];
