@@ -15,19 +15,28 @@ int main()
 	
 	unordered_map<int,int> mp;
 	int l = 1,r = 1;
+	int ret= 1e5;
+	int ret_l = 1e4,ret_r = 1e4;
 	
 	while(r <= n)
 	{
 		mp[a[r]]++;
 		
-		if(mp.size() >= m)
+		if(mp.size() == m)
 		{
-			cout << l << " " << r << endl;
-			break;
+			if(r - l + 1 < ret)
+			{
+				ret = r - l + 1;
+				ret_l = min(ret_l,l);
+				ret_r = min(ret_r,r);
+			}
+			l++;
 		}
-		
 		r++;
 	}
+	
+	cout << ret_l << " " << ret_r << endl;
+	
 	
 	return 0;
 }
